@@ -99,7 +99,10 @@ Verify the Installation
 
    II. Switch the *Platform* to your device type (Anroid or iOS)
 
-   .. error:: add print screen, (need final unity project)
+   .. image:: images/build_1.png
+      :alt: Build settings
+      :align: center
+      :width: 800px
 
    III. Open the *Player Settings...*
 
@@ -226,6 +229,9 @@ Verify the Installation
 10. |ios| Trust the developer under *Settings* > *General* > *Device Management* >
     *Developer App* > *Trust "<insert your email here>"* > *Trust*
 
+    .. image:: images/iphone_0.png
+       :alt: iPhone Settings
+       :width: 250px
     .. image:: images/iphone_1.png
        :alt: iPhone Settings
        :width: 250px
@@ -245,7 +251,11 @@ Verify the Installation
 
 11. |ios| If the app is not automatically started select it from your home screen
 
-    .. warning:: insert home screen screenshot, need final project
+    .. image:: images/iphone_6.png
+       :alt: iPhone Settings
+       :align: center
+       :width: 250px
+
 
 12. Validate app functions
     
