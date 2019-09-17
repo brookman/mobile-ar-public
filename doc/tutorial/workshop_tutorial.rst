@@ -47,7 +47,8 @@ Install Unity
       :alt: Unity Hub Installations
       :align: center
       :width: 800px
-4. Select *Add*, *Unity 2019.2.2f1*
+4. Select *Add*, *Unity 2019.2.3f1*
+
     .. image:: images/install_unity_2.png
        :alt: Unity Hub, Add Unity Version Menu
        :align: center
