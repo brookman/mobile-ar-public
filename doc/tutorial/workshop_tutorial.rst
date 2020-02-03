@@ -126,7 +126,7 @@ Verify the Installation
 
    I. Plug-in the device on your Laptop
    II. Verify that the device is reachable by adb 
-       Ender :code:`adb device -l` in you command line. You should now see something like:
+       Enter :code:`adb devices -l` in you command line. You should now see something like:
 
        :code:`8ATX0YYJK              device product:blueline model:Pixel_3 device:blueline transport_id:1`
    III. If the device is shown as *unauthorized*
