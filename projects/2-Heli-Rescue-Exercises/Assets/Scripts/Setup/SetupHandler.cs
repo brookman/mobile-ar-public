@@ -45,7 +45,7 @@ public class SetupHandler : MonoBehaviour
                 }
                 else
                 {
-                    var anchor = FindObjectOfType<ARReferencePointManager>().AddReferencePoint(pose);
+                    var anchor = FindObjectOfType<ARAnchorManager>().AddAnchor(pose);
                     anchor.gameObject.AddComponent<DontDestroyOnLoad>();
                     poseTransform = anchor.transform;
                 }
