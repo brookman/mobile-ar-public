@@ -4759,6 +4759,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9512,6 +9513,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14313,6 +14315,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19066,6 +19069,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19121,6 +19125,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5923825048446970651}
     m_Modifications:
+    - target: {fileID: 1934496491, guid: bf9c895fe76e4994cb615001a680dedc, type: 3}
+      propertyPath: m_Name
+      value: Spawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 4710121291340021089, guid: bf9c895fe76e4994cb615001a680dedc,
+        type: 3}
+      propertyPath: m_Name
+      value: skyscraper-small
+      objectReference: {fileID: 0}
     - target: {fileID: 4710121291340191787, guid: bf9c895fe76e4994cb615001a680dedc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -19191,14 +19204,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.01
       objectReference: {fileID: 0}
-    - target: {fileID: 4710121291340021089, guid: bf9c895fe76e4994cb615001a680dedc,
+    - target: {fileID: 5361104334701307183, guid: bf9c895fe76e4994cb615001a680dedc,
         type: 3}
-      propertyPath: m_Name
-      value: skyscraper-small
-      objectReference: {fileID: 0}
-    - target: {fileID: 1934496491, guid: bf9c895fe76e4994cb615001a680dedc, type: 3}
-      propertyPath: m_Name
-      value: Spawner
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf9c895fe76e4994cb615001a680dedc, type: 3}

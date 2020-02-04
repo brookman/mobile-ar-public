@@ -54,7 +54,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2007876169618456370}
   - component: {fileID: 8102774968061944822}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: ObstacleColliderBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9219400426554791140}
   - component: {fileID: 5514202046880859498}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: ObstacleColliderCenterLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -172,7 +172,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2685736104734760086}
   - component: {fileID: 2892183270545980379}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: ObstacleColliderTopLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216,7 +216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 425386908945241209}
   - component: {fileID: 2704628535136839219}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: ObstacleColliderBaseLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -298,7 +298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1422634508111917766}
   - component: {fileID: 4689206663785309824}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: ObstacleColliderTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -342,7 +342,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8373412482299512554}
   - component: {fileID: 4926937908274358026}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: ObstacleColliderCenter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -500,6 +500,7 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

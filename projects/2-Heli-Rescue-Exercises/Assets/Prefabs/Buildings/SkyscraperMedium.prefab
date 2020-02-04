@@ -4705,6 +4705,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9474,6 +9475,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14313,6 +14315,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19066,6 +19069,7 @@ ParticleSystemRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19124,11 +19128,6 @@ PrefabInstance:
     - target: {fileID: 1664544971, guid: 9c01ad8a47d046044be58473c3b10cb4, type: 3}
       propertyPath: m_Name
       value: Spawner
-      objectReference: {fileID: 0}
-    - target: {fileID: 6359239387140859886, guid: 9c01ad8a47d046044be58473c3b10cb4,
-        type: 3}
-      propertyPath: m_Name
-      value: skyscraper-medium
       objectReference: {fileID: 0}
     - target: {fileID: 6359239387140780310, guid: 9c01ad8a47d046044be58473c3b10cb4,
         type: 3}
@@ -19199,6 +19198,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalScale.z
       value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6359239387140859886, guid: 9c01ad8a47d046044be58473c3b10cb4,
+        type: 3}
+      propertyPath: m_Name
+      value: skyscraper-medium
+      objectReference: {fileID: 0}
+    - target: {fileID: 6943743519744614816, guid: 9c01ad8a47d046044be58473c3b10cb4,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1449582318304663854, guid: 9c01ad8a47d046044be58473c3b10cb4, type: 3}
