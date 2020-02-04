@@ -47,7 +47,7 @@ Install Unity
       :alt: Unity Hub Installations
       :align: center
       :width: 800px
-4. Select *Add*, *Unity 2019.2.3f1*
+4. Select *Add*, |unity_version| 
 
     .. image:: images/install_unity_2.png
        :alt: Unity Hub, Add Unity Version Menu
@@ -139,14 +139,14 @@ Verify the Installation
 
 5. Open the *Window > Package Manager*
 
-   I. Check that you have the version *preview.1 - 3.0.0* of *ARFoundation*,
+   I. Check that you have the version |arfoundation_version|,
       upgrade if necessary (click on the arrow on the left and then on *See all
       versions*)
 
-   II. |ios| Check that the *preview.1 - 3.0.0 ARKit XR Plugin* is
+   II. |ios| Check that the |arkit_version| is
        installed
 
-   III. |and| Check that the *preview.1 - 3.0.0 ARCore* is
+   III. |and| Check that the |arcore_version| is
         installed
 
    .. image:: images/packages.png
@@ -279,6 +279,13 @@ Verify the Installation
   :height: 18px
 
 .. |pf| replace:: **PROJECT_FOLDER**
+
+.. |unity_version| replace:: **Unity2019.3.0f6**
+.. |arfoundation_version| replace:: **3.0.1 ARFoundation XR Plugin**
+.. |arkit_version| replace:: **3.0.1 ARKit XR Plugin**
+.. |arkit_facetracking_version| replace:: **3.0.1 ARKit Face Tracking**
+.. |arcore_version| replace:: **3.0.1 ARCore XR Plugin**
+.. |legacy_input_version| replace:: **1.3.8 Legacy Input Helpers**
 
 Credits
 -------
