@@ -40,12 +40,27 @@ public class RayCastVisualizer : MonoBehaviour
         {
             // Exercise: Perform a Raycast and find the nearest, "valid" AR plane using the ARRaycastManager.
             // Hints:
+            ARRaycastHit? closestHit = null;
+            var list = new List<ARRaycastHit>();
             // - Use _raycastManager.Raycast with TrackableType PlaneWithinPolygon
-            // - Use the ARPlaneManager to get the plane from the hit
-            // - ARPlane.IsValid() is an extension method to check the validity
-            
-            // Your code here:
-            
+            _raycastManager.Raycast(ray, list, TrackableType.PlaneWithinPolygon);
+            foreach (var arRaycastHit in list)
+            {
+                if (arRaycastHit.hitType != TrackableType.PlaneWithinPolygon) continue;
+                // - Use the ARPlaneManager to get the plane from the hit
+                var plane = _planeManager.GetPlane(arRaycastHit.trackableId);
+                // - ARPlane.IsValid() is an extension method to check the validity
+                if (!plane.IsValid()) continue;
+
+                if (closestHit.HasValue && closestHit.Value.distance < arRaycastHit.distance) continue;
+                closestHit = arRaycastHit;
+            }
+
+            if (closestHit.HasValue)
+            {
+              ShowCursorAt(closestHit.Value.pose.position);
+              return;
+            }
         }
 
         HideCursor();
