@@ -16,7 +16,10 @@ public class HeliCollider : MonoBehaviour
         // Exercise: Check for collision and crash helicopter
         // Hints:
         // - Check if the collider object is on the correct layer called "Obstacle"
+        if (collider.gameObject.layer != _layer) return;
         // - Instantiate CrashEffectPrefab
+        Instantiate(CrashEffectPrefab);
         // - Call GameController.Instance.Crash()
+        GameController.Instance.Crash();
     }
 }
