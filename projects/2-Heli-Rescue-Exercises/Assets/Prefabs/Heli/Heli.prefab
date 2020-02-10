@@ -163,6 +163,19 @@ MonoBehaviour:
   PersonPrefab: {fileID: 163134639032478935, guid: d7ae16e6dfbf13544878d6856322ae77,
     type: 3}
   DropoffArea: {fileID: 0}
+--- !u!114 &183568857088743082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3042672276576722747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7312856f691725b4f816123a08d1c239, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RotationSpeed: 100
 --- !u!1 &8817019987024116190
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,16 +258,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1213216691462922933}
     m_Modifications:
-    - target: {fileID: 9169159876403231170, guid: 09d522bd42857d94f8e9749eece1a47f,
-        type: 3}
-      propertyPath: m_Name
-      value: PositionIndicator
-      objectReference: {fileID: 0}
-    - target: {fileID: 9169159876403231170, guid: 09d522bd42857d94f8e9749eece1a47f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2405758125598698863, guid: 09d522bd42857d94f8e9749eece1a47f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -315,11 +318,6 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8598649983180689308, guid: 09d522bd42857d94f8e9749eece1a47f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4388125722115708578, guid: 09d522bd42857d94f8e9749eece1a47f,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -330,6 +328,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: fe2ae8eb6d93a434fa99ae9fe4c510d4, type: 2}
+    - target: {fileID: 8598649983180689308, guid: 09d522bd42857d94f8e9749eece1a47f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9169159876403231170, guid: 09d522bd42857d94f8e9749eece1a47f,
+        type: 3}
+      propertyPath: m_Name
+      value: PositionIndicator
+      objectReference: {fileID: 0}
+    - target: {fileID: 9169159876403231170, guid: 09d522bd42857d94f8e9749eece1a47f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09d522bd42857d94f8e9749eece1a47f, type: 3}
 --- !u!1 &8056746140060896418 stripped
@@ -351,6 +364,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1213216691462922933}
     m_Modifications:
+    - target: {fileID: 1082640694033142, guid: c37dc95258b08d74e8093165d5421ed9, type: 3}
+      propertyPath: m_Name
+      value: PoliceHelicopter-fbx
+      objectReference: {fileID: 0}
+    - target: {fileID: 4405508770633836, guid: c37dc95258b08d74e8093165d5421ed9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4405508770633836, guid: c37dc95258b08d74e8093165d5421ed9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4405508770633836, guid: c37dc95258b08d74e8093165d5421ed9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4405508770633836, guid: c37dc95258b08d74e8093165d5421ed9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.7354
+      objectReference: {fileID: 0}
     - target: {fileID: 4548594502023760, guid: c37dc95258b08d74e8093165d5421ed9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -407,71 +440,6 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 1.9628628
       objectReference: {fileID: 0}
-    - target: {fileID: 1082640694033142, guid: c37dc95258b08d74e8093165d5421ed9, type: 3}
-      propertyPath: m_Name
-      value: PoliceHelicopter-fbx
-      objectReference: {fileID: 0}
-    - target: {fileID: 4405508770633836, guid: c37dc95258b08d74e8093165d5421ed9, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4405508770633836, guid: c37dc95258b08d74e8093165d5421ed9, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4405508770633836, guid: c37dc95258b08d74e8093165d5421ed9, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4405508770633836, guid: c37dc95258b08d74e8093165d5421ed9, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.7354
-      objectReference: {fileID: 0}
-    - target: {fileID: 23654952001233880, guid: c37dc95258b08d74e8093165d5421ed9,
-        type: 3}
-      propertyPath: m_ReceiveShadows
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 23654952001233880, guid: c37dc95258b08d74e8093165d5421ed9,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 23654952001233880, guid: c37dc95258b08d74e8093165d5421ed9,
-        type: 3}
-      propertyPath: m_ReflectionProbeUsage
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 23902964031597348, guid: c37dc95258b08d74e8093165d5421ed9,
-        type: 3}
-      propertyPath: m_ReceiveShadows
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 23902964031597348, guid: c37dc95258b08d74e8093165d5421ed9,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 23902964031597348, guid: c37dc95258b08d74e8093165d5421ed9,
-        type: 3}
-      propertyPath: m_ReflectionProbeUsage
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 23982725877805802, guid: c37dc95258b08d74e8093165d5421ed9,
-        type: 3}
-      propertyPath: m_ReceiveShadows
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 23982725877805802, guid: c37dc95258b08d74e8093165d5421ed9,
-        type: 3}
-      propertyPath: m_LightProbeUsage
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 23982725877805802, guid: c37dc95258b08d74e8093165d5421ed9,
-        type: 3}
-      propertyPath: m_ReflectionProbeUsage
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 23003460109533484, guid: c37dc95258b08d74e8093165d5421ed9,
         type: 3}
       propertyPath: m_ReceiveShadows
@@ -543,6 +511,51 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 23482470945912708, guid: c37dc95258b08d74e8093165d5421ed9,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23654952001233880, guid: c37dc95258b08d74e8093165d5421ed9,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23654952001233880, guid: c37dc95258b08d74e8093165d5421ed9,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23654952001233880, guid: c37dc95258b08d74e8093165d5421ed9,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23902964031597348, guid: c37dc95258b08d74e8093165d5421ed9,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23902964031597348, guid: c37dc95258b08d74e8093165d5421ed9,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23902964031597348, guid: c37dc95258b08d74e8093165d5421ed9,
+        type: 3}
+      propertyPath: m_ReflectionProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23982725877805802, guid: c37dc95258b08d74e8093165d5421ed9,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23982725877805802, guid: c37dc95258b08d74e8093165d5421ed9,
+        type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23982725877805802, guid: c37dc95258b08d74e8093165d5421ed9,
         type: 3}
       propertyPath: m_ReflectionProbeUsage
       value: 0
@@ -563,6 +576,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 3043333287514198107}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &3042672276576722747 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1594088825491296, guid: c37dc95258b08d74e8093165d5421ed9,
+    type: 3}
+  m_PrefabInstance: {fileID: 3043333287514198107}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3948913436582805850
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -570,11 +589,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1213216691462922933}
     m_Modifications:
-    - target: {fileID: 6424434785390988785, guid: 82c60dcc770d9864891d10875533dbf6,
-        type: 3}
-      propertyPath: m_Name
-      value: OutlineRaycaster
-      objectReference: {fileID: 0}
     - target: {fileID: 5503092779355409049, guid: 82c60dcc770d9864891d10875533dbf6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -629,6 +643,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6424434785390988785, guid: 82c60dcc770d9864891d10875533dbf6,
+        type: 3}
+      propertyPath: m_Name
+      value: OutlineRaycaster
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 82c60dcc770d9864891d10875533dbf6, type: 3}
